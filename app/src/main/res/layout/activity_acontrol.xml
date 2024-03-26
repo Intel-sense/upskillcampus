@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Acontrol">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control Automatic"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- EditText for setting timer duration -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp">
+        <EditText
+            android:id="@+id/edit_text_input"
+            android:layout_width="95dp"
+            android:layout_height="40dp"
+            android:hint="Seconds"
+            android:inputType="number"
+            android:maxLength="4"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="256dp"/>
+            />
+
+        </LinearLayout>
+
+        <!-- Light Bulb Image and Timer -->
+        <LinearLayout
+            android:id="@+id/light_bulb_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="72dp"
+                android:layout_height="52dp"
+                android:src="@drawable/light_bulb"/>
+
+            <TextView
+                android:id="@+id/text_view_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginStart="28dp"/>
+
+            <Button
+                android:id="@+id/button_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_start_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:layout_marginStart="16dp"/>
+
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp">
+            <Button
+                android:id="@+id/button_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:layout_marginStart="270dp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp">
+            <EditText
+                android:id="@+id/edit_text_input1"
+                android:layout_width="95dp"
+                android:layout_height="40dp"
+                android:hint="Seconds"
+                android:inputType="number"
+                android:maxLength="4"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="256dp"/>
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/light_bulb_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/water_pump"
+                android:layout_width="72dp"
+                android:layout_height="52dp"
+                android:src="@drawable/water_pump"/>
+
+            <TextView
+                android:id="@+id/text_view_countdown1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginStart="28dp"/>
+
+            <Button
+                android:id="@+id/button_set1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_start_pause1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_reset1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:layout_marginStart="16dp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp">
+            <EditText
+                android:id="@+id/edit_text_input2"
+                android:layout_width="95dp"
+                android:layout_height="40dp"
+                android:hint="Seconds"
+                android:inputType="number"
+                android:maxLength="4"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="256dp"/>
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/light_bulb_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/water_pump2"
+                android:layout_width="72dp"
+                android:layout_height="52dp"
+                android:src="@drawable/water_tank"/>
+
+            <TextView
+                android:id="@+id/text_view_countdown2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginStart="28dp"/>
+
+            <Button
+                android:id="@+id/button_set2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_start_pause2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_reset2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:layout_marginStart="16dp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp">
+            <EditText
+                android:id="@+id/edit_text_input3"
+                android:layout_width="95dp"
+                android:layout_height="40dp"
+                android:hint="Seconds"
+                android:inputType="number"
+                android:maxLength="4"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="256dp"/>
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/light_bulb_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/water_pump5"
+                android:layout_width="72dp"
+                android:layout_height="52dp"
+                android:src="@drawable/exhaust_fan"/>
+
+            <TextView
+                android:id="@+id/text_view_countdown4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginStart="28dp"/>
+
+            <Button
+                android:id="@+id/button_set5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_start_pause4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_reset3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:layout_marginStart="16dp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp">
+            <EditText
+                android:id="@+id/edit_text_input9"
+                android:layout_width="95dp"
+                android:layout_height="40dp"
+                android:hint="Seconds"
+                android:inputType="number"
+                android:maxLength="4"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="256dp"/>
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/light_bulb_layout0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/water_pump90"
+                android:layout_width="72dp"
+                android:layout_height="52dp"
+                android:src="@drawable/img_1"/>
+
+            <TextView
+                android:id="@+id/text_view_countdown0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginStart="28dp"/>
+
+            <Button
+                android:id="@+id/button_set9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_start_pause8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button_reset6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:layout_marginStart="16dp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <!-- Add more ImageViews, Timers, Set, Start/Pause, and Reset Buttons for each image here -->
+
+    </LinearLayout>
+</ScrollView>

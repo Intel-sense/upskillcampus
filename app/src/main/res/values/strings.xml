@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Smart Farm</string>
+    <string name="logout">logout</string>
+    <string name="controls">controls</string>
+    <string name="manual_control">Manual control</string>
+    <string name = "info_soil"> Soil Preparation:
+Soil preparation involves getting the soil ready for planting. It ensures that the soil provides a suitable environment for plant growth. Here are the key steps involved in soil preparation:
+
+Clearing the Area: Remove any debris, rocks, or existing vegetation from the planting area.
+
+Loosening the Soil: Use a spade, fork, or tiller to loosen the soil to a depth of about 6 to 12 inches (15 to 30 cm). This helps improve soil aeration, drainage, and root penetration.
+
+Adding Organic Matter: Incorporate organic matter such as compost, aged manure, or leaf mold into the soil. Organic matter improves soil structure, adds nutrients, and enhances moisture retention.
+
+Testing the Soil: Conduct a soil test to determine the pH level and nutrient content of the soil. Based on the test results, you can adjust the soil pH and add fertilizers or soil amendments as needed to optimize plant growth.
+
+Leveling the Soil: Smooth out the soil surface using a rake to create a level planting bed.
+
+Mulching: Apply a layer of mulch over the soil surface to conserve moisture, suppress weeds, and regulate soil temperature.
+    </string>
+    <string name="weed"> Weeding:
+Weeding involves removing unwanted plants (weeds) from the garden or agricultural field. Weeds compete with cultivated plants for nutrients, water, and sunlight, and they can significantly reduce crop yields if left uncontrolled. Here are some methods for effective weeding:
+
+Hand Weeding: Hand pulling or hoeing is the most common method for small-scale weeding. It involves manually removing weeds from the soil using a hand tool like a hoe or by hand-pulling.
+
+Cultivation: Cultivating the soil with a hoe, cultivator, or mechanical tiller can help disrupt weed growth and expose weed roots to air, sunlight, and desiccation.
+
+Mulching: Mulching with organic materials such as straw, wood chips, or shredded leaves can suppress weed growth by blocking sunlight and preventing weed seeds from germinating.
+
+Chemical Control: Herbicides can be used to control weeds in large-scale agricultural settings. However, chemical weed control should be used judiciously and in accordance with label instructions to minimize environmental impact.
+
+Crop Rotation and Cover Crops: Implementing crop rotation and planting cover crops can help suppress weeds by disrupting their life cycles and shading out weed seedlings.
+
+Preventive Measures: Take preventive measures to minimize weed infestations, such as maintaining healthy soil, using weed-free seeds and transplants, and practicing good sanitation to prevent weed seed spread.</string>
+   <string name="rice">1. Rice:Growing Tips:
+
+Sowing: Rice is usually sown directly into flooded paddy fields or in seedbeds, then transplanted into the fields after 25-40 days.
+Water Management: Maintain flooded conditions in the field until the panicle initiation stage, then drain the water. Keep the field adequately irrigated during the growing season.
+Fertilization: Apply nitrogenous fertilizers in split doses at different growth stages.
+Weed Control: Keep the field weed-free by manual weeding or using herbicides. </string>
+    <string name='wheat'>Wheat Growing Tips:
+        Sowing: Wheat is sown in well-prepared seedbeds at the onset of the winter season.
+Fertilization: Apply balanced doses of fertilizers containing nitrogen, phosphorus, and potassium.
+Water Management: Irrigate the field at critical growth stages such as crown root initiation, jointing, flowering, and grain filling.
+Weed Control: Keep the field weed-free through manual weeding or using herbicides.</string>
+    <string name='millets'>Millets Growing Tips:
+        Planting: Millets are sown directly into the soil at the onset of the monsoon season.
+        Water Management: Millets are drought-tolerant but benefit from well-timed rainfall or supplemental irrigation during dry spells.
+        Fertilization: Apply organic manures or balanced fertilizers based on soil nutrient deficiencies.
+        Weed Control: Keep the field weed-free through manual weeding or using herbicides.</string>
+    <string name='pulses'>Pulses Growing Tips:
+        Planting: Pulses are sown directly into the soil at the beginning of the monsoon season or in the winter season, depending on the variety.
+        Inoculation: Use seed inoculants containing nitrogen-fixing bacteria to enhance soil fertility.
+        Water Management: Pulses require moderate moisture levels, so irrigate the field as needed.
+        Weed Control: Keep the field weed-free through manual weeding or using herbicides.</string>
+    <string name='sugarcane'>Sugarcane Growing Tips:
+        Planting: Sugarcane is propagated through stem cuttings called setts. Plant setts in well-prepared furrows or pits during the monsoon season.
+        Water Management: Sugarcane requires ample moisture, so ensure regular irrigation, especially during dry spells.
+        Fertilization: Apply organic manures or balanced fertilizers based on soil nutrient deficiencies.
+        Weed Control: Keep the field weed-free through manual weeding or using herbicides.</string>
+    <string name='cotton'>Cotton Growing Tips:
+        Planting: Cotton is sown directly into the soil after the last frost date, usually during the summer season.
+        Fertilization: Apply balanced doses of fertilizers containing nitrogen, phosphorus, and potassium.
+        Water Management: Cotton requires regular irrigation, especially during flowering and boll development stages.
+        Weed Control: Keep the field weed-free through manual weeding or using herbicides.</string>
+    <string name='spices'>Spices Growing Tips:
+        Planting: Spices are propagated through seeds, rhizomes, or cuttings, depending on the type of spice. Follow specific planting methods for each spice.
+        Soil and Water Management: Provide well-drained soil and adequate moisture levels based on the specific requirements of each spice.
+        Fertilization: Apply organic manures or balanced fertilizers based on soil nutrient deficiencies.
+        Weed Control: Keep the field weed-free through manual weeding or using herbicides.</string>
+    <string name='tea'>Tea Growing Tips:
+        Planting: Tea is propagated through stem cuttings and planted in well-prepared, shaded nurseries before transplanting to the field.
+        Soil and Water Management: Provide well-drained, acidic soil and regular irrigation, especially during dry periods.
+        Fertilization: Apply fertilizers containing nitrogen, phosphorus, and potassium based on soil test results and plant requirements.
+        Pruning: Prune tea bushes regularly to promote new growth and maintain plant vigor.</string>
+
+
+
+    <color name="lavender">#670ECA</color>
+    <color name="lavenders">#8692f7</color>
+</resources>

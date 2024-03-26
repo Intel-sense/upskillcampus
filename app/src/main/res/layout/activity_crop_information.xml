@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CropInformation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your ImageView(s) here -->
+
+
+            <!-- Add more ImageViews as needed -->
+
+            <!-- Add TextView for content -->
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="293dp"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_4" />
+
+            <TextView
+                android:id="@+id/text_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_soil"
+                android:padding="8dp" />
+
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_8" />
+
+            <TextView
+                android:id="@+id/text_contents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weed"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/rice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_9" />
+
+            <TextView
+                android:id="@+id/text_content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rice"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/wheat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_10" />
+
+            <TextView
+                android:id="@+id/text_content5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wheat"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/millets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_11" />
+
+            <TextView
+                android:id="@+id/text_content9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/millets"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/pulses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_12" />
+
+            <TextView
+                android:id="@+id/text_content19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pulses"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/sugarcane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_13" />
+
+            <TextView
+                android:id="@+id/text_content119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sugarcane"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/cotton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_14" />
+
+            <TextView
+                android:id="@+id/text_content1119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cotton"
+                android:padding="8dp" />
+
+
+            <ImageView
+                android:id="@+id/spices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_15" />
+
+            <TextView
+                android:id="@+id/text_content31119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/spices"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/tea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:src="@drawable/img_16" />
+
+            <TextView
+                android:id="@+id/text_content531119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tea"
+                android:padding="8dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
