@@ -60,4 +60,4 @@ Special thanks to all contributors and mentors who have helped in the developmen
 
 Feel free to customize this README template according to your project's specific details and requirements. If you need further assistance or have any questions, please let me know!
 
-Report submission (https://github.com/Intel-sense/upskillcampus/blob/474f301455999899e11edca6456420c52cebe1c1/Abhilash_LN_USC_UCT_InternReport.pdf)  
+Report with detailed process --(https://github.com/Intel-sense/upskillcampus/blob/474f301455999899e11edca6456420c52cebe1c1/Abhilash_LN_USC_UCT_InternReport.pdf)  
