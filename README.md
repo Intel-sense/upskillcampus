@@ -52,9 +52,6 @@ Performance testing is essential to ensure the reliability and efficiency of the
 Contributing
 Contributions to the project are welcome! Please follow the guidelines outlined in CONTRIBUTING.md to contribute code, report issues, or suggest improvements.
 
-License
-This project is licensed under the MIT License.
-
 Acknowledgments
 Special thanks to all contributors and mentors who have helped in the development of this project.
 
